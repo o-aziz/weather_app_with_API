@@ -82,11 +82,6 @@ class LandingScreen extends StatelessWidget {
                             ),
                           ),
                         );
-                        print(weatherData![0][0].icon.toString());
-                        print(weatherData![0][0].id.toString());
-                        print(weatherData![0][0].description);
-                        print(weatherData![1].toString());
-                        print(weatherData![2].toString());
                       } else {
                         ScaffoldMessenger.of(context).showSnackBar(
                           SnackBar(
